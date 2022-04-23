@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <header class="vh-100">
+        <div class="back h-25">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">GPA</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">sign in</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">sign up</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div> 
+        <section>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-4">
+                               <h3 class="text-info pb-3">College GPA Calculator</h3>
+                               <p class="text-muted">Want to calculate your college course grades? Our easy to use college GPA calculator will help you calculate your GPA and stay on top of your study grades in just minutes! Whether you are taking degree courses online or are on a community college campus, no matter what degree course or specialized study you are aiming for , we have got you covered.
+                            </p>
+                        </div>
+                        <div class="offset-2 col-lg-2">
+                            <label>Subject 1</label>
+                            <input  name="name" type="text" class="form-control">
+                            <label>Subject 2</label>
+                            <input  name="name" type="text" class="form-control">
+                            <label>Subject 3</label>
+                            <input  name="name" type="text" class="form-control">
+                            <label>Subject 4</label>
+                            <input  name="name" type="text" class="form-control">
+                            <label>Subject 5</label>
+                            <input  name="name" type="text" class="form-control">
+                            <label>Subject 6</label>
+                            <input  name="name" type="text" class="form-control">
+                            <button id="button" class="btn p-2 mt-2" type="submit"> Calculate</button>
+                            <h5 class="text-info">Your GPA is : <span id="gpa"></span></h5>
+                        </div>
+                        <div class="col-lg-1">
+                            <label>Hours 1</label>
+                            <input  name="name" type="number" class="form-control hours">
+                            <label>Hours 2</label>
+                            <input  name="name" type="number" class="form-control hours">
+                            <label>Hours 3</label>
+                            <input  name="name" type="number" class="form-control hours">
+                            <label>Hours 4</label>
+                            <input  name="name" type="number" class="form-control hours">
+                            <label>Hours 5</label>
+                            <input   name="name" type="number" class="form-control hours">
+                            <label>Hours 6</label>
+                            <input   name="name" type="number" class="form-control hours">
+                        </div>
+                        <div class="col-lg-1">
+                            <label>Grade 1</label>
+                            <select class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                            <label>Grade 2</label>
+                            <select  class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                            <label>Grade 3</label>
+                            <select  class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                            <label>Grade 4</label>
+                            <select  class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                            <label>Grade 5</label>
+                            <select  class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                            <label>Grade 6</label>
+                            <select  class="form-control grades">
+                                <option value="A+">A+</option>
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </div>
+                  </div>
+            </div>
+        </section>
+    </header>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

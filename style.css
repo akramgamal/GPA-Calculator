@@ -1,0 +1,13 @@
+.back{
+    background-image: url('./wave-lg.svg');
+    background-size: cover;
+    background-position: 50%;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.btn{
+    background-color: rgb(74, 224, 224) !important;
+    color:white !important ;
+    border-radius: 15px !important;
+}
